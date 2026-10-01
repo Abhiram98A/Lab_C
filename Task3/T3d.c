@@ -1,4 +1,4 @@
-/*Question: Write a program that takes two integers as inputs and one operator (+, -, *, /) as input and performs the operation */
+/*Question: Write a program that takes two integers as inputs and one operator (+, -, *, /, %) as input and performs the operation */
 #include <stdio.h>
 
 int main() {
