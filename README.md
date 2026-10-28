@@ -163,6 +163,96 @@ Exiting calculator. Goodbye!
 
 ---
 
+## Task 5: Functions & Pattern Printing
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `T5a.c` | **Binary Equivalent (0-255)** | Function design, bitwise logic, input validation, while loop |
+| `T5b.c` | **Diamond Number Pattern (Fixed 9 Rows)** | Nested loops, pattern logic, symmetric output |
+| `T5c.c` | **Left-Aligned Number Pyramid** | User input validation, nested loops, triangular pattern |
+| `T5d.c` | **Diamond Number Pattern (User n<10)** | Input validation, symmetric diamond, ascending/descending loops |
+| `T5e.c` | **Pyramid Number Pattern (User n<10)** | Input validation, centered pyramid, ascending/descending halves |
+
+### Sample Outputs
+```bash
+# T5a.c
+Enter a number between 0 and 255: 13
+1011
+
+# T5b.c
+        1
+       123
+      12345
+     1234567
+    123456789
+     1234567
+      12345
+       123
+        1
+
+# T5c.c
+Enter a positive number (<10): 4
+1
+12
+123
+1234
+
+# T5d.c
+Enter a positive number (<10): 4
+   1
+  121
+ 12321
+1234321
+ 12321
+  121
+   1
+
+# T5e.c
+Enter a positive number (<10): 4
+   1
+  121
+ 12321
+1234321
+```
+
+---
+
+## Task 6: Pointers
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `T6a.c` | **Function Types Demo** | Four function type combinations (params/return), modular design |
+| `T6b.c` | **Sine Series Approximation** | Function decomposition, math.h, factorial, Taylor series |
+| `T6c.c` | **Pointer Arithmetic** | Array-pointer equivalence, pointer increment, dereferencing |
+| `T6d.c` | **Swap Using Pointers** | Pass-by-reference simulation, pointer parameters, memory manipulation |
+
+### Sample Outputs
+```bash
+# T6a.c
+add(3,5) = 8
+Sum = 8
+Constant = 42
+Hello!
+
+# T6b.c
+sin(1.00) approx = 0.8415
+
+# T6c.c
+Pointer arithmetic demo:
+*(p + 0) = 10
+*(p + 1) = 20
+*(p + 2) = 30
+*(p + 3) = 40
+p[2] = 30
+After p++, *p = 20
+
+# T6d.c
+Before: x=5, y=10
+After: x=10, y=5
+```
+
+---
+
 ## How to Compile and Run
 
 ### Using GCC (Linux/macOS/WSL)
@@ -217,6 +307,8 @@ Get-ChildItem Task*/*.c | ForEach-Object {
 | 2 | Basic conditionals, relational/logical operators | Beginner |
 | 3 | Complex decision making, switch-case | Beginner-Intermediate |
 | 4 | Loops, algorithms, problem solving | Intermediate |
+| 5 | Functions, modular programming | Intermediate |
+| 6 | Pointers, memory manipulation | Intermediate-Advanced |
 
 ---
 
